@@ -1,19 +1,19 @@
 /* General Body Styling */
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #e8e5d3; /* šviesi pastelinė smėlio geltona */
+  font-family: 'Poppins', sans-serif;
+  background-color: #F1F5F8; /* Light earthy beige (calm, neutral background) */
   margin: 0;
   padding: 0;
-  color: #4b4b4b;
+  color: #4b4b4b; /* Dark text color for readability */
 }
 
 /* Header styling */
 .header {
-  background-color: #2c6b3d; /* tamsiai žalia, bet ne per ryški */
+  background-color: #2E5B31; /* Dark Green - like dense foliage */
   color: white;
   text-align: center;
   padding: 50px 0;
-  background-image: url('https://www.example.com/forest.jpg'); /* įkelkite savo foną */
+  background-image: url('https://www.weforum.org/stories/2023/01/5-reasons-forest-carbon-credits-climate-action/');
   background-size: cover;
   background-position: center;
 }
@@ -21,11 +21,13 @@ body {
 .header h1 {
   margin: 0;
   font-size: 3rem;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* švelnus šešėlis */
+  font-family: 'Lora', serif; /* Elegant serif font for the header */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Soft shadow to add depth */
 }
 
 .header p {
   font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -33,7 +35,7 @@ body {
 .about-section {
   padding: 50px 20px;
   text-align: center;
-  background-color: #ffffff; /* baltas fonas */
+  background-color: #E8F3E4; /* Soft light green - evoking fresh leaves */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
   border-radius: 8px;
@@ -41,7 +43,8 @@ body {
 
 .about-section h2 {
   font-size: 2.5rem;
-  color: #2c6b3d; /* tamsiai žalia spalva */
+  color: #2E5B31; /* Dark Green from the header */
+  font-family: 'Lora', serif;
 }
 
 .about-section p {
@@ -49,14 +52,15 @@ body {
   color: #555;
   line-height: 1.6;
   margin: 10px 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Projects section */
 .projects-section {
   padding: 50px 20px;
-  background-color: #f0e4c9; /* labai šviesi pastelė geltona */
+  background-color: #F1F5F8; /* Light earthy beige - similar to body background */
   text-align: center;
-  background-image: url('https://www.example.com/forest2.jpg'); /* gamtos fonas */
+  background-image: url('/../portfolio/public/forest-bg.jpeg');
   background-size: cover;
   background-position: center;
   color: #333;
@@ -65,11 +69,12 @@ body {
 .projects-section h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;
-  color: #2c6b3d; /* tamsiai žalia */
+  color: #2E5B31; /* Dark Green */
+  font-family: 'Lora', serif;
 }
 
 .project {
-  background-color: rgba(255, 255, 255, 0.8); /* švelnus baltas fonas su skaidrumu */
+  background-color: rgba(255, 255, 255, 0.8); /* Light, semi-transparent white for cards */
   padding: 20px;
   margin: 20px 0;
   border-radius: 8px;
@@ -78,17 +83,19 @@ body {
 
 .project h3 {
   font-size: 1.8rem;
-  color: #506f43; /* subtili tamsiai žalia */
+  color: #506F43; /* Forest Green - a muted earthy green */
+  font-family: 'Lora', serif;
 }
 
 .project p {
   font-size: 1.1rem;
   color: #555;
+  font-family: 'Poppins', sans-serif;
 }
 
 .project .links a {
   display: block;
-  color: #506f43; /* subtili žalia */
+  color: #506F43; /* Forest Green */
   text-decoration: none;
   margin-top: 10px;
   font-weight: bold;
@@ -96,14 +103,14 @@ body {
 
 .project .links a:hover {
   text-decoration: underline;
-  color: #2c6b3d; /* šiek tiek tamsesnė žalia */
+  color: #2E5B31; /* Darker green for hover effect */
 }
 
 /* Contact section */
 .contact-section {
   padding: 50px 20px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #E8F3E4; /* Soft light green */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
   border-radius: 8px;
@@ -111,23 +118,25 @@ body {
 
 .contact-section h2 {
   font-size: 2.5rem;
-  color: #2c6b3d; /* tamsiai žalia */
+  color: #2E5B31; /* Dark Green */
   margin-bottom: 20px;
+  font-family: 'Lora', serif;
 }
 
 .contact-section p {
   font-size: 1.1rem;
   color: #555;
   margin: 10px 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact-section a {
-  color: #506f43; /* subtili žalia */
+  color: #506F43; /* Forest Green */
   text-decoration: none;
   font-weight: bold;
 }
 
 .contact-section a:hover {
   text-decoration: underline;
-  color: #2c6b3d; /* šiek tiek tamsesnė žalia */
+  color: #2E5B31; /* Dark Green on hover */
 }
