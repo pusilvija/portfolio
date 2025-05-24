@@ -6,7 +6,7 @@ function Projects() {
       <h2>Personal Projects</h2>
       <div className="project">
         <h3>Your-Planner App</h3>
-        <p>CRUD app with authentication and REST API.</p>
+        <p>A React-based task management app with a responsive design, leveraging modern state management, RESTful API integration, and dynamic components to deliver an efficient and user-friendly planning experience</p>
         <div className="links">
           <a href="https://your-planner-fe-production.up.railway.app/" target="_blank" rel="noopener noreferrer">Visit App</a>
           <a href="https://github.com/pusilvija/your-planner-fe" target="_blank" rel="noopener noreferrer">Frontend GitHub</a>
