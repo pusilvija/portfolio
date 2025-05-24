@@ -60,7 +60,7 @@ body {
   padding: 50px 20px;
   background-color: #F1F5F8; /* Light earthy beige - similar to body background */
   text-align: center;
-  background-image: url('/../portfolio/public/forest-bg.jpeg');
+  background-image: url('/public/forest-bg.jpeg');
   background-size: cover;
   background-position: center;
   color: #333;
