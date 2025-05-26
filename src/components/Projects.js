@@ -1,19 +1,72 @@
 import React from 'react';
+import { FaGithub } from 'react-icons/fa';
+import './Projects.css';
 
 function Projects() {
   return (
     <section id="projects" className="projects-section">
-      <h2>Personal Projects</h2>
+      <h2>Work experience</h2>
+
       <div className="project">
-        <h3>Your-Planner App</h3>
-        <p>A React-based task management app with a responsive design, leveraging modern state management, RESTful API integration, and dynamic components to deliver an efficient and user-friendly planning experience</p>
-        <div className="links">
-          <a href="https://your-planner-fe-production.up.railway.app/" target="_blank" rel="noopener noreferrer">Visit App</a>
-          <a href="https://github.com/pusilvija/your-planner-fe" target="_blank" rel="noopener noreferrer">Frontend GitHub</a>
-          <a href="https://github.com/pusilvija/your-planner" target="_blank" rel="noopener noreferrer">Backend GitHub</a>
+        <div className="project-year">2020 - 2021</div>
+        <div className="project-details">
+          <strong>Python Developer at Biomatter</strong>
+          <p>Developed and maintained ...</p>
+        </div>
+        <div className='project-logo'>
+          <img 
+            src="/biomatter-logo.png" 
+            alt="Biomatter Logo" 
+            className="biomatter-project-logo" 
+          />
         </div>
       </div>
-      {/* More projects can go here */}
+
+      <div className="project">
+        <div className="project-year">2021 - 2024</div>
+        <div className="project-details">
+          <strong>Python Developer at Gjensidige</strong>
+          <p>Developed and maintained ...</p>
+        </div>
+        <div className='project-logo'>
+          <img 
+            src="/gjensidige-logo.png" 
+            alt="Gjensidige Logo" 
+            className="gjensidige-project-logo" 
+          />
+        </div>
+      </div>
+
+      <h2>Personal Projects</h2>
+
+      <div className="project">
+        <div className="project-details">
+          <a href="https://your-planner-fe-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className='project-link'>      
+          <strong>Your-Planner App</strong>       
+          </a>
+          <div className="project-header">
+            <p>
+              A React-based task management app with a responsive design, leveraging modern state management, RESTful API integration, and dynamic components to deliver an efficient and user-friendly planning experience.
+            </p>
+          </div>
+          <div className="links">
+            <a href="https://github.com/pusilvija/your-planner-fe" target="_blank" rel="noopener noreferrer" className="github-button">
+              <FaGithub className="icon" />
+            </a>
+          </div>
+        </div>
+        <div className='project-logo'>
+        <a href="https://your-planner-fe-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className='project-link'>      
+            <img 
+                    src="/your-planner-icon.png" 
+                    alt="Visit App" 
+                    className="your-planner-link-icon" 
+                  />
+          
+          </a>
+        </div>
+      </div>
+      
     </section>
   );
 }

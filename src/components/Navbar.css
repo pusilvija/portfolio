@@ -1,0 +1,29 @@
+.navbar {
+    position: center;
+    top: 0;
+    padding: 0.5rem 2em;
+    border: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--section-color-transparent2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    /* box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3); */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Add a subtle shadow */
+    transition: text-shadow 0.3s ease; /* Smooth transition */
+  }
