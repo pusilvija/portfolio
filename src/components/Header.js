@@ -10,7 +10,7 @@ function Header() {
         <p>Full Stack Developer</p>
       </div>
       <img 
-        src="/profile.png" 
+        src="profile.png" 
         alt="Silvija Pupsaite" 
         className="header-image" 
       />

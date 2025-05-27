@@ -4,7 +4,7 @@ import './Projects.css';
 
 
 function Projects() {
-  
+
   return (
     <section id="projects" className="projects-section">
 
@@ -29,7 +29,7 @@ function Projects() {
           <div className='project-logo'>
           <a href="https://your-planner-fe-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className='project-link'>      
               <img 
-                      src="/your-planner.png" 
+                      src="your-planner.png" 
                       alt="Visit App" 
                       className="your-planner-link-icon" 
                     />
@@ -47,7 +47,7 @@ function Projects() {
           </div>
           <div className='project-logo'>
             <img 
-              src="/gjensidige-logo.png" 
+              src="gjensidige-logo.png" 
               alt="Gjensidige Logo" 
               className="gjensidige-project-logo" 
             />
@@ -62,7 +62,7 @@ function Projects() {
           </div>
           <div className='project-logo'>
             <img 
-              src="/biomatter-logo.png" 
+              src="biomatter-logo.png" 
               alt="Biomatter Logo" 
               className="biomatter-project-logo" 
             />
@@ -79,7 +79,7 @@ function Projects() {
           </div>
           <div className='project-logo'>
             <img 
-              src="/ku-logo.png" 
+              src="ku-logo.png" 
               alt="KU Logo" 
               className="ku-project-logo" 
             />
@@ -94,7 +94,7 @@ function Projects() {
           </div>
           <div className='project-logo'>
             <img 
-              src="/vu-logo.png" 
+              src="vu-logo.png" 
               alt="VU Logo" 
               className="vu-project-logo" 
             />
