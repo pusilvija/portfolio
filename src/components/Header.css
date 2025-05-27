@@ -26,11 +26,13 @@
 
 
 .header-image {
-  width: 40%;
+  width: 100%;
+  max-width: 200px;
   height: auto;
   align-self: center;
   margin-bottom: 20px;
   filter: grayscale(40%);
+  object-fit: cover;
 }
 
 .header-contact {
