@@ -16,7 +16,7 @@ function Projects() {
             </a>
             <div className="project-header">
               <p>
-                A React-based task management app with a responsive design, leveraging modern state management, RESTful API integration, and dynamic components to deliver an efficient and user-friendly planning experience.
+              Your Planner is a full-stack productivity application featuring a React frontend and a Python/Django REST backend, deployed on Railway. Implements authentication, Django REST framework and real-time task updates. Key features include task management, responsive UI, and modular code architecture. 
               </p>
             </div>
             <div className="links">
@@ -42,7 +42,7 @@ function Projects() {
           <div className="project-year">2021 - 2024</div>
           <div className="project-details">
             <strong>Python Developer at Gjensidige</strong>
-            <p>Developed and maintained ...</p>
+            <p>Supported Azure data platform migration in cross-country teams. Provided technical guidance on Python, Git, CI/CD, dbt, Databricks, and MLflow; handled code refactoring, testing, and ML model deployment. Led Streamlit integration with secure, project-level access and deployed apps on Azure Kubernetes. Delivered internal workshops and presentations.</p>
           </div>
           <div className='project-logo'>
             <img 
@@ -57,7 +57,7 @@ function Projects() {
           <div className="project-year">2020 - 2021</div>
           <div className="project-details">
             <strong>Python Developer at Biomatter</strong>
-            <p>Developed and maintained ...</p>
+            <p>Worked in a small developer team to build a platform for designing and evaluating stable proteins for clients, integrating machine learning tools and supporting unique, file-based data.</p>
           </div>
           <div className='project-logo'>
             <img 
@@ -74,7 +74,7 @@ function Projects() {
           <div className="project-year">2018 - 2020</div>
           <div className="project-details">
             <strong>MSc of Bioinformatics, Copenhagen Univeristy</strong>
-            <p>Studies, projects...</p>
+            <p>Gained strong foundation in Python, computer science, advanced algorithms, and data structures. Specialized in sequence and structural bioinformatics, genetic analysis, and machine learning. Hands-on with neural networks, Bayesian models, and sampling methods (Adam, HMC NUTS), with deep expertise in computational analysis and scientific programming.</p>
           </div>
           <div className='project-logo'>
             <img 
@@ -89,7 +89,7 @@ function Projects() {
           <div className="project-year">2014 - 2018</div>
           <div className="project-details">
             <strong>BSc of Biochemistry, Vilnius university</strong>
-            <p>Developed and maintained ...</p>
+            <p>Solid foundation in biochemistry with additional coursework in bioinformatics and data analysis using R. Developed analytical and problem-solving skills through scientific research.</p>
           </div>
           <div className='project-logo'>
             <img 
