@@ -5,38 +5,6 @@ import './Projects.css';
 function Projects() {
   return (
     <section id="projects" className="projects-section">
-      <h2 id="work-experience">Work experience</h2>
-
-      <div className="project">
-        <div className="project-year">2020 - 2021</div>
-        <div className="project-details">
-          <strong>Python Developer at Biomatter</strong>
-          <p>Developed and maintained ...</p>
-        </div>
-        <div className='project-logo'>
-          <img 
-            src="/biomatter-logo.png" 
-            alt="Biomatter Logo" 
-            className="biomatter-project-logo" 
-          />
-        </div>
-      </div>
-
-      <div className="project">
-        <div className="project-year">2021 - 2024</div>
-        <div className="project-details">
-          <strong>Python Developer at Gjensidige</strong>
-          <p>Developed and maintained ...</p>
-        </div>
-        <div className='project-logo'>
-          <img 
-            src="/gjensidige-logo.png" 
-            alt="Gjensidige Logo" 
-            className="gjensidige-project-logo" 
-          />
-        </div>
-      </div>
-
       <h2 id="personal-projects">Personal Projects</h2>
 
       <div className="project">
@@ -63,6 +31,38 @@ function Projects() {
                     className="your-planner-link-icon" 
                   />
           </a>
+        </div>
+      </div>
+
+      <h2 id="work-experience">Work experience</h2>
+
+      <div className="project">
+        <div className="project-year">2021 - 2024</div>
+        <div className="project-details">
+          <strong>Python Developer at Gjensidige</strong>
+          <p>Developed and maintained ...</p>
+        </div>
+        <div className='project-logo'>
+          <img 
+            src="/gjensidige-logo.png" 
+            alt="Gjensidige Logo" 
+            className="gjensidige-project-logo" 
+          />
+        </div>
+      </div>
+
+      <div className="project">
+        <div className="project-year">2020 - 2021</div>
+        <div className="project-details">
+          <strong>Python Developer at Biomatter</strong>
+          <p>Developed and maintained ...</p>
+        </div>
+        <div className='project-logo'>
+          <img 
+            src="/biomatter-logo.png" 
+            alt="Biomatter Logo" 
+            className="biomatter-project-logo" 
+          />
         </div>
       </div>
 
