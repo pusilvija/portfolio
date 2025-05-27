@@ -37,10 +37,3 @@ body {
   display: flex; /* Ensure child elements inside can align properly */
   flex-direction: column; /* Allow content to stack vertically */
 }
-
-@media (max-width: 768px) {
-  .header-about-container {
-    flex-direction: column; /* Stack them vertically on smaller screens */
-    align-items: center;
-  }
-}

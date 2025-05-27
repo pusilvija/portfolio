@@ -9,7 +9,6 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    /* box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3); */
   }
   
   .navbar ul {
@@ -24,6 +23,6 @@
   }
   
   .navbar a:hover {
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Add a subtle shadow */
-    transition: text-shadow 0.3s ease; /* Smooth transition */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    transition: text-shadow 0.3s ease;
   }
