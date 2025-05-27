@@ -5,8 +5,8 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-    <p>Silvija Pupsaite</p>
-    <Contact />
+      <p>Silvija Pupsaite</p>
+      <Contact />
     </footer>
   );
 }

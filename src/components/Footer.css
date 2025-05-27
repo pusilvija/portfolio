@@ -2,7 +2,9 @@
     background-color: var(--primary-color);
     color: white;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
-  

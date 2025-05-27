@@ -3,19 +3,19 @@
   background-color: var(--primary-color);
   color: var(--background-color);
   text-align: center;
-  /* padding: 30px 0; */
   padding: 4rem 1rem;
   background-image: url('https://www.weforum.org/stories/2023/01/5-reasons-forest-carbon-credits-climate-action/');
   background-size: cover;
   background-position: center;
   display: flex;
+  line-height: 40px;
 }
 
 .header h1 {
   margin: 0;
   font-size: 3rem;
-  font-family: 'Lora', serif; /* Elegant serif font for the header */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Soft shadow to add depth */
+  font-family: 'Lora', serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .header p {
@@ -31,4 +31,9 @@
   align-self: center;
   margin-bottom: 20px;
   filter: grayscale(40%);
+}
+
+.header-contact {
+  margin-top: auto;
+  text-align: center;
 }

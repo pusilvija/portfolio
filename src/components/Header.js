@@ -14,7 +14,9 @@ function Header() {
         alt="Silvija Pupsaite" 
         className="header-image" 
       />
-      <Contact />
+      <div className="header-contact">
+        <Contact />
+      </div>
     </header>
   );
 }
