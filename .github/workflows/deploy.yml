@@ -28,4 +28,4 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
+        npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>" -r https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
