@@ -3,7 +3,6 @@
   padding: 50px 20px;
   background-color: var(--background-color);
   text-align: center;
-  /* background-image: url('/public/forest-bg.jpeg'); */
   background-size: cover;
   background-position: center;
   color: var(--section-text-color);
@@ -23,6 +22,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 20px;
 }
@@ -31,12 +31,12 @@
   font-size: 1rem;
   color: var(--text-color);
   font-weight: bold;
-  min-width: 100px; /* Reserve space for the year */
+  min-width: 100px;
 }
 
 .project-details {
   text-align: left;
-  flex: 1; /* Allow the details to take the remaining space */
+  flex: 1;
 }
 
 
@@ -75,8 +75,33 @@
 }
 
 .project-logo img {
-  width: 120px; /* Set a fixed width for all logos */
-  height: 120px; /* Set a fixed height for all logos */
-  object-fit: contain; /* Ensure the image fits within the dimensions without distortion */
-  border-radius: 8px; /* Optional: Add rounded corners */
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .project-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .project-logo img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .project-details {
+    text-align: left;
+  }
 }

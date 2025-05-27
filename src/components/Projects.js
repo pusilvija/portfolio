@@ -12,7 +12,7 @@ function Projects() {
         <div className="project">
           <div className="project-details">
             <a href="https://your-planner-fe-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className='project-link'>      
-            <strong>Your-Planner App</strong>       
+            <h1><strong>Your-Planner App</strong></h1>       
             </a>
             <div className="project-header">
               <p>
@@ -41,7 +41,7 @@ function Projects() {
         <div className="project">
           <div className="project-year">2021 - 2024</div>
           <div className="project-details">
-            <strong>Python Developer at Gjensidige</strong>
+            <h1><strong>Python Developer at Gjensidige</strong></h1>
             <p>Supported Azure data platform migration in cross-country teams. Provided technical guidance on Python, Git, CI/CD, dbt, Databricks, and MLflow; handled code refactoring, testing, and ML model deployment. Led Streamlit integration with secure, project-level access and deployed apps on Azure Kubernetes. Delivered internal workshops and presentations.</p>
           </div>
           <div className='project-logo'>
@@ -56,7 +56,7 @@ function Projects() {
         <div className="project">
           <div className="project-year">2020 - 2021</div>
           <div className="project-details">
-            <strong>Python Developer at Biomatter</strong>
+            <h1><strong>Python Developer at Biomatter</strong></h1>
             <p>Worked in a small developer team to build a platform for designing and evaluating stable proteins for clients, integrating machine learning tools and supporting unique, file-based data.</p>
           </div>
           <div className='project-logo'>
@@ -73,7 +73,7 @@ function Projects() {
         <div className="project">
           <div className="project-year">2018 - 2020</div>
           <div className="project-details">
-            <strong>MSc of Bioinformatics, Copenhagen Univeristy</strong>
+            <h1><strong>MSc of Bioinformatics</strong></h1>
             <p>Gained strong foundation in Python, computer science, advanced algorithms, and data structures. Specialized in sequence and structural bioinformatics, genetic analysis, and machine learning. Hands-on with neural networks, Bayesian models, and sampling methods (Adam, HMC NUTS), with deep expertise in computational analysis and scientific programming.</p>
           </div>
           <div className='project-logo'>
@@ -88,7 +88,7 @@ function Projects() {
         <div className="project">
           <div className="project-year">2014 - 2018</div>
           <div className="project-details">
-            <strong>BSc of Biochemistry, Vilnius university</strong>
+            <h1><strong>BSc of Biochemistry</strong></h1>
             <p>Solid foundation in biochemistry with additional coursework in bioinformatics and data analysis using R. Developed analytical and problem-solving skills through scientific research.</p>
           </div>
           <div className='project-logo'>
