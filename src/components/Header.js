@@ -15,6 +15,7 @@ function Header() {
         className="header-image" 
       />
       <div className="header-contact">
+        Contact me:
         <Contact />
       </div>
     </header>
