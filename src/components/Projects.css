@@ -39,14 +39,10 @@
   flex: 1; /* Allow the details to take the remaining space */
 }
 
-.gjensidige-project-logo {
-  height : 110px; /* Set a fixed height for the logo */
-  width: auto;
-}
-
 
 .project a {
   text-decoration: none;
+  color: black;
 }
 
 .project p {
@@ -78,10 +74,9 @@
   transition: transform 0.2s ease;
 }
 
-.your-planner-link-icon {
-  width: 100px; /* Set the width of the icon */
-  height: auto; /* Set the height of the icon */
-  /* object-fit: contain; Ensure the image fits within the dimensions */
-  /* margin-left: 10px; Add spacing to the left if needed */
-  /* align-self: center; */
+.project-logo img {
+  width: 120px; /* Set a fixed width for all logos */
+  height: 120px; /* Set a fixed height for all logos */
+  object-fit: contain; /* Ensure the image fits within the dimensions without distortion */
+  border-radius: 8px; /* Optional: Add rounded corners */
 }

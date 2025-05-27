@@ -58,7 +58,7 @@ function Projects() {
         <div className='project-logo'>
         <a href="https://your-planner-fe-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className='project-link'>      
             <img 
-                    src="/your-planner-icon.png" 
+                    src="/your-planner.png" 
                     alt="Visit App" 
                     className="your-planner-link-icon" 
                   />
