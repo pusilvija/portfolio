@@ -69,9 +69,9 @@ function Projects() {
       <h2>Education</h2>
 
       <div className="project">
-        <div className="project-year">2021 - 2024</div>
+        <div className="project-year">2018 - 2020</div>
         <div className="project-details">
-          <strong>MSc of Biochemistry, Copenhagen Univeristy</strong>
+          <strong>MSc of Bioinformatics, Copenhagen Univeristy</strong>
           <p>Studies, projects...</p>
         </div>
         <div className='project-logo'>
@@ -84,7 +84,7 @@ function Projects() {
       </div>
 
       <div className="project">
-        <div className="project-year">2021 - 2024</div>
+        <div className="project-year">2014 - 2018</div>
         <div className="project-details">
           <strong>BSc of Biochemistry, Vilnius university</strong>
           <p>Developed and maintained ...</p>
