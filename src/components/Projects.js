@@ -62,8 +62,39 @@ function Projects() {
                     alt="Visit App" 
                     className="your-planner-link-icon" 
                   />
-          
           </a>
+        </div>
+      </div>
+
+      <h2>Education</h2>
+
+      <div className="project">
+        <div className="project-year">2021 - 2024</div>
+        <div className="project-details">
+          <strong>MSc of Biochemistry, Copenhagen Univeristy</strong>
+          <p>Studies, projects...</p>
+        </div>
+        <div className='project-logo'>
+          <img 
+            src="/ku-logo.png" 
+            alt="KU Logo" 
+            className="ku-project-logo" 
+          />
+        </div>
+      </div>
+
+      <div className="project">
+        <div className="project-year">2021 - 2024</div>
+        <div className="project-details">
+          <strong>BSc of Biochemistry, Vilnius university</strong>
+          <p>Developed and maintained ...</p>
+        </div>
+        <div className='project-logo'>
+          <img 
+            src="/vu-logo.png" 
+            alt="VU Logo" 
+            className="vu-project-logo" 
+          />
         </div>
       </div>
       
