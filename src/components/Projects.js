@@ -5,7 +5,7 @@ import './Projects.css';
 function Projects() {
   return (
     <section id="projects" className="projects-section">
-      <h2 id="personal-projects">Personal Projects</h2>
+      <h2 id="personal-projects">Projects</h2>
 
       <div className="project">
         <div className="project-details">
@@ -34,7 +34,7 @@ function Projects() {
         </div>
       </div>
 
-      <h2 id="work-experience">Work experience</h2>
+      <h2 id="work-experience">Experience</h2>
 
       <div className="project">
         <div className="project-year">2021 - 2024</div>
