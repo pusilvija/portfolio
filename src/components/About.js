@@ -19,6 +19,7 @@ function About() {
         I enjoy solving real-world problems with clean code and continuous learning.
       </p>
     </section>
+
   );
 }
 

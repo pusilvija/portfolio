@@ -14,6 +14,18 @@ function Header() {
         alt="Silvija Pupsaite" 
         className="header-image" 
       />
+      <div className="offer-section">
+        <h2>What I Offer</h2>
+        <div className="services-list">
+          🐍 Python & Data Automation <br />
+          ⚙️ ETL / Data Pipeline Development <br />
+          🌐 Website Creation & Maintenance <br />
+          📉 Data Analytics & Visualization <br />
+          ☁️ Cloud Deployment <br />
+          🔧 DevOps for Data <br />
+          🧠 Technical Consulting & Training <br />
+        </div>
+      </div>
       <div className="header-contact">
         Find me on:
         <Contact />

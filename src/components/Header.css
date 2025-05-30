@@ -24,13 +24,12 @@
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-
 .header-image {
   width: 100%;
   max-width: 200px;
   height: auto;
   align-self: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 5px; */
   filter: grayscale(40%);
   object-fit: cover;
 }
@@ -38,4 +37,29 @@
 .header-contact {
   margin-top: auto;
   text-align: center;
+}
+
+.offer-section {
+  display: flex; /* Enable flexbox for alignment */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically if needed */
+  padding-top: 0;
+  margin-top: 0; /* Center the section horizontally */
+  border: none;
+  outline: none;
+  text-align: center; /* Center-align the heading */
+}
+
+.offer-section h2 {
+  font-size: 1.8rem;
+  color: var(--primary-color); /* Use the primary color for the heading */
+  margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+.services-list {
+  font-size: 1rem;
+  line-height: 1.6; /* Adjust line spacing for readability */
+  color: var(--background-color);
+  text-align: left;
 }

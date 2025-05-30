@@ -1,14 +1,8 @@
 .navbar {
-  position: relative;
-  top: 0;
-  padding: 0.5rem 2em;
-  border: 0.5rem;
-  background-color: var(--primary-color);
-  color: var(--section-color-transparent2);
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
 }
 
 .navbar ul {
@@ -16,14 +10,19 @@
   display: flex;
   gap: 20px;
   padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  font-size: 1rem;
 }
 
 .navbar a {
-  color: white;
   text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
-  transition: text-shadow 0.3s ease;
+  color: var(--accent-color);
 }
