@@ -16,7 +16,7 @@ function App() {
         <div className="container">
           <Routes>
             <Route
-              path="/"
+              path="/portfolio"
               element={
                 <>
                   <div className="header-about-container">
