@@ -21,10 +21,11 @@ function App() {
                 <>
                   <div className="header-about-container">
                     <Header />
-                    <TechStack />
+                    <About />
                   </div>
                   <div className="offer-container">
-                    <About />
+                    <TechStack />
+                    
                   </div>
                 </>
               }

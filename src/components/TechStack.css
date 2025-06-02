@@ -7,7 +7,7 @@ h2 {
 
 .tech-stack {
   display: grid; /* Use CSS Grid for layout */
-  grid-template-columns: repeat(2, 1fr); /* Create exactly two equal-width columns */
+  grid-template-columns: repeat(3, 1fr); /* Create exactly two equal-width columns */
   gap: 20px; /* Add spacing between columns and rows */
 }
 

@@ -36,7 +36,7 @@ function Projects() {
           </div>
         </div>
 
-      <h2 id="work-experience">Experience</h2>
+      <h2 id="work-experience">Work Experience</h2>
 
         <div className="project">
           <div className="project-year">2021 - 2024</div>
