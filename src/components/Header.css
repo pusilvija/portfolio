@@ -4,9 +4,6 @@
   color: var(--background-color);
   text-align: center;
   padding: 4rem 1rem;
-  background-image: url('https://www.weforum.org/stories/2023/01/5-reasons-forest-carbon-credits-climate-action/');
-  background-size: cover;
-  background-position: center;
   display: flex;
   line-height: 40px;
 }
@@ -20,7 +17,6 @@
 
 .header p {
   font-size: 1.2rem;
-  font-family: 'Poppins', sans-serif;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -29,7 +25,6 @@
   max-width: 200px;
   height: auto;
   align-self: center;
-  /* margin-bottom: 5px; */
   filter: grayscale(40%);
   object-fit: cover;
 }
@@ -40,26 +35,21 @@
 }
 
 .offer-section {
-  display: flex; /* Enable flexbox for alignment */
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center children horizontally */
-  justify-content: center; /* Center children vertically if needed */
-  padding-top: 0;
-  margin-top: 0; /* Center the section horizontally */
-  border: none;
-  outline: none;
-  text-align: center; /* Center-align the heading */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .offer-section h2 {
   font-size: 1.8rem;
-  color: var(--primary-color); /* Use the primary color for the heading */
-  margin-bottom: 10px; /* Add spacing below the heading */
+  color: var(--primary-color);
+  margin-bottom: 10px;
 }
 
 .services-list {
   font-size: 1rem;
-  line-height: 1.6; /* Adjust line spacing for readability */
+  line-height: 1.6;
   color: var(--background-color);
   text-align: left;
 }

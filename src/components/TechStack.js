@@ -5,7 +5,6 @@ function TechStack() {
   return (
     <section id="offer" className="offer-section">
       <div className="offer-content">
-        {/* <h2>My Tech Stack</h2> */}
         <div className="tech-stack">
           <div className="tech-category">
             <h3>Languages</h3>

@@ -2,7 +2,6 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import './Projects.css';
 
-
 function Projects() {
   return (
     <section id="projects" className="projects-section">

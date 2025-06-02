@@ -3,6 +3,7 @@
   --secondary-color: #F1F5F8;
   --accent-color: #507043;
   --text-color: #333;
+  --text-color-gray: #555;
   --background-color: #E8F3E4;
   --white: #FFFFFF;
   --black: #000000;
@@ -19,28 +20,34 @@ body {
 }
 
 .container {
-  max-width: 1200px; /* Set the maximum width of the page */
-  margin: 0 auto; /* Center the container horizontally */
-  padding: 0 20px; /* Add some padding for smaller screens */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .header-about-container {
-  display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Add space between Header and About */
-  align-items: stretch; /* Make both sections equal height */
-  gap: 20px; /* Add spacing between the two sections */
-  padding: 20px; /* Add padding around the container */
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  padding: 20px;
 }
 
 .header-about-container > * {
-  flex: 1; /* Make both sections take equal width */
-  display: flex; /* Ensure child elements inside can align properly */
-  flex-direction: column; /* Allow content to stack vertically */
+  flex: 1;
+  flex-direction: column;
 }
 
 .offer-section {
-  background-color: transparent; /* Ensure no background color is applied */
-  padding: 20px; /* Add padding for spacing */
-  margin: 20px 0; /* Add spacing above and below the section */
-  text-align: left; /* Align text to the left */
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .header-about-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1px 1px;
+    padding-top: 10px;
+  }
+
 }

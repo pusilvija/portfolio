@@ -25,12 +25,11 @@ function App() {
                   </div>
                   <div className="offer-container">
                     <TechStack />
-                    
                   </div>
                 </>
               }
             />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/experience" element={<Projects />} />
           </Routes>
         </div>
         <Footer />
