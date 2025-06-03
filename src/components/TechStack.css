@@ -1,3 +1,14 @@
+.tech-category {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.tech-category.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -37,10 +48,16 @@ h2 {
 @media (max-width: 768px) {
   .tech-stack {
     grid-template-columns: 1fr;
-    padding: 1px 1px;
-    padding-top: 10px;
+    gap: 15px;
+    padding: 10px;
   }
-  .offer-section{
-    padding: 0;
+
+  .tech-stack-section {
+    padding: 0 10px;
+  }
+
+  .tech-category {
+    padding: 1rem;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   }
 }

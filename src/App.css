@@ -1,14 +1,13 @@
 :root {
-  --primary-color: #2E5B31;
-  --secondary-color: #F1F5F8;
-  --accent-color: #507043;
-  --text-color: #333;
-  --text-color-gray: #555;
-  --background-color: #E8F3E4;
+  --primary-color: 	#2f4d49;
+  --accent-color: #4B5563;
+  --text-color: #111827;
+  --text-color-gray: #6B7280;
+  --background-color: #F9FAFB;
   --white: #FFFFFF;
   --black: #000000;
-  --section-text-color: #333;
-  --section-color: #F9FAFB;
+  --section-text-color: #6B7280;
+  --section-color: #E5E7EB;
   --section-color-transparent: rgba(249, 250, 251, 0.8);
   --section-color-transparent2: rgba(249, 250, 251, 0.2);
 }
@@ -16,7 +15,7 @@
 body {
   background-color: var(--background-color);
   color: var(--text-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Sora', sans-serif;
 }
 
 .container {

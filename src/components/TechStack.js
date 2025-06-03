@@ -1,10 +1,39 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './TechStack.css';
 
 function TechStack() {
+  const techStackRef = useRef(null);
+
+  useEffect(() => {
+    const categories = document.querySelectorAll('.tech-category');
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            // Add the `visible` class with a delay based on the index
+            setTimeout(() => {
+              entry.target.classList.add('visible');
+            }, index * 150);
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    categories.forEach((category) => observer.observe(category));
+
+    return () => {
+      categories.forEach((category) => observer.unobserve(category));
+    };
+  }, []);
+
   return (
-    <section id="offer" className="offer-section">
-      <div className="offer-content">
+    <section
+      id="tech-stack"
+      className="tech-stack-section"
+      ref={techStackRef}
+    >
         <div className="tech-stack">
           <div className="tech-category">
             <h3>Languages</h3>
@@ -60,7 +89,6 @@ function TechStack() {
             </ul>
           </div>
         </div>
-      </div>
     </section>
   );
 }

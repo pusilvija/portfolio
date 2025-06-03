@@ -1,12 +1,38 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { FaGithub } from 'react-icons/fa';
 import './Projects.css';
 
 function Projects() {
-  return (
-    <section id="projects" className="projects-section">
+  const projectsRef = useRef(null);
 
-      <h2 id="personal-projects">Projects</h2>
+  useEffect(() => {
+    const projects = document.querySelectorAll('.project, h2'); 
+    
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            // Add the `visible` class with a delay based on the index
+            setTimeout(() => {
+              entry.target.classList.add('visible');
+            }, index * 150);
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    projects.forEach((project) => observer.observe(project));
+
+    return () => {
+      projects.forEach((project) => observer.unobserve(project));
+    };
+  }, []);
+
+  return (
+    <section id="projects" className="projects-section" ref={projectsRef}>
+
+      <h2 id="experience-type">Projects</h2>
 
         <div className="project">
           <div className="project-details">
@@ -35,7 +61,7 @@ function Projects() {
           </div>
         </div>
 
-      <h2 id="work-experience">Work Experience</h2>
+      <h2 id="experience-type">Work Experience</h2>
 
         <div className="project">
           <div className="project-year">2021 - 2024</div>
@@ -67,7 +93,7 @@ function Projects() {
           </div>
         </div>
 
-      <h2 id="education">Education</h2>
+      <h2 id="experience-type">Education</h2>
 
         <div className="project">
           <div className="project-year">2018 - 2020</div>

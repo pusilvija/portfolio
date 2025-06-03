@@ -5,7 +5,19 @@
   text-align: center;
   background-size: cover;
   background-position: center;
-  color: var(--section-text-color);
+}
+
+.project,
+#experience-type {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.project.visible,
+#experience-type.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .projects-section h2 {
@@ -88,6 +100,7 @@
 
 @media (max-width: 768px) {
   .project {
+    grid-template-columns: 1fr;
     flex-direction: column;
     gap: 5px;
   }
