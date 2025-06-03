@@ -15,7 +15,6 @@ function Header() {
         className="header-image" 
       />
       <div className="offer-section">
-        <h2>What I Offer</h2>
         <div className="services-list">
           🐍 Python & Data Automation <br />
           ⚙️ ETL / Data Pipeline Development <br />

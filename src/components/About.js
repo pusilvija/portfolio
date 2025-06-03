@@ -43,7 +43,7 @@ function About() {
       </p>
       <p>
         Recently, I've shifted my focus toward full-stack development. I'm actively learning and building projects using
-        <strong>Django</strong> for backend APIs and <strong>React</strong> for frontend interfaces. My goal is to combine
+        <strong> Django</strong> for backend APIs and <strong>React</strong> for frontend interfaces. My goal is to combine
         my strong programming foundation with modern web technologies to deliver complete, end-to-end web solutions.
       </p>
       <p>
