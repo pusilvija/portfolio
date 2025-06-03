@@ -5,6 +5,8 @@ function About() {
   const aboutRef = useRef(null);
 
   useEffect(() => {
+    const currentRef = aboutRef.current; // Store the current value of the ref
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -16,13 +18,13 @@ function About() {
       { threshold: 0.2 }
     );
 
-    if (aboutRef.current) {
-      observer.observe(aboutRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (aboutRef.current) {
-        observer.unobserve(aboutRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef); // Use the stored ref value
       }
     };
   }, []);
@@ -40,8 +42,8 @@ function About() {
         and integrating data sources efficiently.
       </p>
       <p>
-        Recently, I've shifted my focus toward full-stack development. I'm actively learning and building projects using 
-        <strong> Django</strong> for backend APIs and <strong>React</strong> for frontend interfaces. My goal is to combine
+        Recently, I've shifted my focus toward full-stack development. I'm actively learning and building projects using
+        <strong>Django</strong> for backend APIs and <strong>React</strong> for frontend interfaces. My goal is to combine
         my strong programming foundation with modern web technologies to deliver complete, end-to-end web solutions.
       </p>
       <p>
