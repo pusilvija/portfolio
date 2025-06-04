@@ -18,7 +18,7 @@ function Header() {
         <div className="services-list">
           🐍 Python & Data Automation <br />
           ⚙️ ETL / Data Pipeline Development <br />
-          🌐 Website Creation & Maintenance <br />
+          🌐 Web development <br />
           📉 Data Analytics & Visualization <br />
           ☁️ Cloud Deployment <br />
           🔧 DevOps for Data <br />

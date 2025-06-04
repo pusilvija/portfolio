@@ -1,6 +1,5 @@
 /* Projects section */
 .projects-section {
-  padding: 50px 20px;
   background-color: var(--background-color);
   text-align: center;
   background-size: cover;
@@ -23,7 +22,7 @@
 .projects-section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  padding-top: 20px;
+  margin-top: 45px;
   color: var(--primary-color);
   text-align: left;
 }
@@ -116,7 +115,4 @@
     margin: 0 auto;
   }
 
-  .projects-section{
-    padding: 5px 5px;
-  }
 }
