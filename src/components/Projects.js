@@ -50,7 +50,7 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div className='project-logo'>
+          <div id='your-planner' className='project-logo'>
           <a href="https://your-planner-fe-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className='project-link'>      
               <img 
                   src={`${process.env.PUBLIC_URL}/your-planner.png`}
