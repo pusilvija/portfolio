@@ -32,24 +32,18 @@ function About() {
   return (
     <section id="about" className="about-section" ref={aboutRef}>
       <h2>About Me</h2>
-      <p>
-        I'm a Python developer with experience in data engineering and a growing focus on full-stack web development.
-      </p>
-      <p>
-        Over the past few years, I've worked primarily with Python in backend and data-related roles, gaining hands-on
-        experience in data processing, automation, and building scalable scripts and tools. I have worked in data
-        engineering environments, where I contributed to building and maintaining ETL pipelines, handling large datasets,
-        and integrating data sources efficiently.
-      </p>
-      <p>
-        Recently, I've shifted my focus toward full-stack development. I'm actively learning and building projects using
-        <strong> Django</strong> for backend APIs and <strong>React</strong> for frontend interfaces. My goal is to combine
-        my strong programming foundation with modern web technologies to deliver complete, end-to-end web solutions.
-      </p>
-      <p>
-        I enjoy solving real-world problems by applying best practices, writing clean code, and embracing continuous
-        learning.
-      </p>
+        <p>
+          I'm a Software Engineer with a strong foundation in backend development, data engineering, and an expanding skill set in full-stack web development.
+        </p>
+        <p>
+          Over the past few years, I've worked extensively with Python in backend and data-focused roles, building scalable tools, automation workflows, and robust data pipelines. My experience includes designing and maintaining ETL processes, optimizing large-scale data handling, and integrating diverse systems to improve efficiency and reliability.
+        </p>
+        <p>
+          More recently, I've broadened my focus to full-stack engineering. I've been developing applications with Django and FastAPI for backend services and React for frontend interfaces, with the goal of delivering seamless, end-to-end solutions. I'm also comfortable working with cloud platforms, databases, and containerization to support modern application development.
+        </p>
+        <p>
+          I'm passionate about solving real-world problems through technology, writing clean and maintainable code, and continuously learning new tools and best practices to grow as an engineer.
+        </p>
     </section>
   );
 }

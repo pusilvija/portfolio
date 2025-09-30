@@ -31,7 +31,7 @@ function Projects() {
 
   return (
     <section id="projects" className="projects-section" ref={projectsRef}>
-
+{/* 
       <h2 id="experience-type">Projects</h2>
 
         <div className="project">
@@ -59,7 +59,7 @@ function Projects() {
                 />
             </a>
           </div>
-        </div>
+        </div> */}
 
       <h2 id="experience-type">Work Experience</h2>
 

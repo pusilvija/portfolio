@@ -16,13 +16,13 @@ function Header() {
       />
       <div className="offer-section">
         <div className="services-list">
-          🐍 Python & Data Automation <br />
-          ⚙️ ETL / Data Pipeline Development <br />
-          🌐 Web development <br />
-          📉 Data Analytics & Visualization <br />
+          💻 Software Development <br />
+          🌐 Web Applications <br />
+          ⚙️ Data Engineering <br />
           ☁️ Cloud Deployment <br />
-          🔧 DevOps for Data <br />
-          🧠 Technical Consulting & Training <br />
+          🔧 DevOps <br />
+          📊 Data Analytics & Visualization <br />
+          🧠 Consulting & Mentorship <br />
         </div>
       </div>
       <div className="header-contact">
