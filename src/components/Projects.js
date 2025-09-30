@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { FaGithub } from 'react-icons/fa';
+// import { FaGithub } from 'react-icons/fa';
 import './Projects.css';
 
 function Projects() {
