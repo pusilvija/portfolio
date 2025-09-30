@@ -7,7 +7,7 @@ function Header() {
     <header className="header">
       <div className="header-info">
         <h1>Silvija Pupsaite</h1>
-        <p>Full Stack Developer</p>
+        <p>Software Engineer</p>
       </div>
       <img 
         src={`${process.env.PUBLIC_URL}/profile.png`}
